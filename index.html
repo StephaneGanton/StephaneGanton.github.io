@@ -27,6 +27,36 @@
 				color: #90acd1;
 			}
 
+			p.description{
+				display: inline-block; 
+				margin-bottom: 0;
+				padding-bottom: 0;
+			}
+
+			p.tools{
+				padding-top: 13px;
+				margin-top: 0;
+			}
+
+			p.tools b{
+				display: inline-block;
+				/*margin-left: 15px;*/
+				margin-right: 10;
+				/*color: #f56a6a; #f56a6a;*/
+				font-size: 1.10rem;
+				font-weight: 700;
+			}
+
+			p.tools span{
+				font-size: 1em;
+				font-style: italic;
+			}
+
+			/*article a.image{
+				width: 416;
+				height: 256;
+			}*/
+
 			#quote{
 				font-size: 1.5em;
 				font-weight: 400;
@@ -73,16 +103,6 @@
 			.lab-africa{
 				color: #f56a6a;
 			}
-			
-			@media only screen and (max-width: 760px){
-				.about-text{
-					display: block;
-				}
-				
-				about-text p{
-					padding: 10px;
-				}
-			}
 
 
 		</style>
@@ -98,12 +118,12 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="#" class="logo"><strong>Portfolio</strong></a>
+									<a href="index.html" class="logo"><strong>Portfolio</strong></a>
 
 									<!--a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a-->
 									<ul class="icons">
-										<li><a href="https://www.linkedin.com/in/c-stéphane-b-wetinhoun-767587180" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://wa.me/22994072171" target="_blank" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+										<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+										<li><a href="#" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
 										
 										<!--li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
 										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
@@ -222,7 +242,7 @@
 									</div>
 								</section>
 
-								<!--Section-->
+								<!-- Section -->
 								<!--section id="experiences">
 									<header class="major">
 										<h2>Experiences</h2>
@@ -262,43 +282,68 @@
 							<!-- Section -->
 								<section id="projects">
 									<header class="major">
-										<h2>Projects</h2>
+										<h2>Some Projects</h2>
 									</header>
-									<!--div class="posts">
+									<div class="posts">
 										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<a href="#" class="image"><img src="images/home-2.jpg" alt="" /></a>
+											<h3>House Price Prediction</h3>
+											<p class="description">Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore</p>
+											<p class="tools">
+												<b>Tools:</b> <span>Flask Server, Pandas,</span>
+											</p>
+											<ul class="actions">
+												<li><a target="_blank" href="https://github.com/StephaneGanton/house-price-prediction-ml" class="button">More</a></li>
+											</ul>
+										</article>
+										<!--article>
+											<a href="#" class="image"><img src="images/sales1-2.jpg" alt="" /></a>
+											<h3>Sales Insights Data Analysis</h3>
+											<p class="description">Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore</p>
+											<p class="tools">
+												<b>Tools:</b>  <span>Tableau Desktop</span>
+											</p>
 											<ul class="actions">
 												<li><a href="#" class="button">More</a></li>
 											</ul>
-										</article>
+										</article-->
 										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<h3>Nulla amet dolore</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<a href="#" class="image"><img src="images/bg-2.jpeg" alt="" /></a>
+											<h3>Potatoes Disease Prediction</h3>
+											<p class="description">Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.</p>
+											<p class="tools">
+												<b>Tools:</b>  <span>Tensorflow,FastApi, Flask server,</span>
+											</p>
 											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>Tempus ullamcorper</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
+												<li><a target="_blank" href="https://github.com/StephaneGanton/potato-disease-classification"  class="button">More</a></li>
 											</ul>
 										</article>
 										
-									</div-->
+										<!--article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<h3>Sport Celebrities images Classification</h3>
+											<p class="description">Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore</p>
+											<p class="tools">
+												<b>Tools:</b> <span>Pandas,OpenCV</span>
+											</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article-->
+
+										<!--article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<h3>E_commerce Website</h3>
+											<p class="description">Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore</p>
+											<p class="tools">
+												<b>Tools:</b>  <span>Django, VueJs, Django REST API</span>
+											</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article-->
+										
+									</div>
 								</section>
 
 						</div>
@@ -324,7 +369,7 @@
 										<li><a href="#main">Homepage</a></li>
 										<li><a href="#about">About</a></li>
 										<li><a href="#skills">Skills</a></li>
-										<li><a href="#experiences">Experiences</a></li>
+										<!--li><a href="#experiences">Experiences</a></li-->
 										<li><a href="#projects">Projects</a></li>
 										<!--li>
 											<span class="opener">Submenu</span>
